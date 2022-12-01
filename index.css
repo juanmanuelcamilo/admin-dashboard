@@ -13,6 +13,7 @@
   grid-template-rows: auto 1fr;
 }
 
+/* SIDEBAR STYLES */
 .sidebar-container {
   background-color: rgba(25, 146, 212, 255);
   color: white;
@@ -55,4 +56,95 @@
 
 li {
   list-style: none;
+}
+
+/* HEADER STYLES */
+.header-container {
+  box-shadow: 0px 2px 3px rgb(175, 175, 175);
+  font-weight: bold;
+  padding: 1rem 2.5rem;
+}
+
+.header-top-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top-side-searchbar,
+.header-top-side-searchbar form {
+  display: flex;
+  align-items: center;
+}
+
+.header-top-side-searchbar form .material-symbols-outlined {
+  margin-right: 1rem;
+}
+
+.header-top-side-searchbar form input {
+  padding-left: 10px;
+  width: 45vw;
+  max-width: 471px;
+  height: 25px;
+  background-color: rgba(226, 232, 240, 255);
+  border: none;
+  border-radius: 15px;
+}
+
+.header-top-side-profile {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-top-side-profile .cat-logo {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.header-bottom-side {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-bottom-side-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.greeting {
+  font-size: 0.7em;
+}
+
+.name {
+  font-size: 1.5em;
+}
+
+.header-bottom-side-profile .cat-logo {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.header-bottom-side-posts {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-bottom-side-posts button {
+  color: white;
+  font-weight: 700;
+  background-color: rgba(25, 146, 212, 255);
+  width: 75px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  gap: 1rem;
+}
+
+.header-bottom-side-posts button:hover {
+  cursor: pointer;
+  transform: none;
+  -webkit-transform: scale(1.07);
 }
